@@ -13,5 +13,5 @@ There will be added more soon.
 [Max Branvall](https://github.com/MaxBranvall/StreamDeckCS) - StreamDeckCS  
 [erfg12](https://github.com/erfg12/memory.dll) - memory.dll  
 
-## Images
+## Media
 ![Image](https://kevin.s-ul.eu/wXX0JOh3.png)
