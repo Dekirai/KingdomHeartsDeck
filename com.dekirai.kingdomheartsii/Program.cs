@@ -19,9 +19,9 @@ namespace com.dekirai.kingdomheartsii
             //Timer timer;
 
             // fields
-            private int numPressed = 0;
-            private int timerDuration = 2000;
-            private string context = null;
+            //private int numPressed = 0;
+            //private int timerDuration = 2000;
+            //private string context = null;
 
             public Plugin(string[] args)
             {
@@ -34,7 +34,6 @@ namespace com.dekirai.kingdomheartsii
                 core.KeyDownEvent += Core_KeyDownEvent;
                 core.WillAppearEvent += Core_WillAppearEvent;
 
-                // enable our timer so we can detect when button is held for timerDuration
                 //timer.Enabled = true;
 
             }
@@ -42,8 +41,7 @@ namespace com.dekirai.kingdomheartsii
             // raises when button is held for timerDuration (2000 ms i.e 2 seconds), resets counter
             private void Timer_Elapsed(object sender, ElapsedEventArgs e)
             {
-                numPressed = 0;
-                core.setTitle(this.context, "0");
+                //Not used for now
             }
             private void Core_KeyDownEvent(object sender, KeyDown e)
             {
@@ -86,13 +84,12 @@ namespace com.dekirai.kingdomheartsii
             private void Core_KeyUpEvent(object sender, KeyUp e)
             {
                 //timer.Stop();
-                //core.setTitle(e.context, fibonacci(++numPressed).ToString());
             }
 
             // when the key appears on the stream deck, set title to "Fib"
             private void Core_WillAppearEvent(object sender, WillAppear e)
             {
-                //core.setTitle(e.context, "Fib");
+                //Not used for now
             }
 
             // starts the plugin
