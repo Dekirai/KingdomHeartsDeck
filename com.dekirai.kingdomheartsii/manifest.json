@@ -1,0 +1,162 @@
+﻿{
+  "Actions": [
+    {
+      "Icon": "assets/KHII/hprefill",
+      "Name": "Refill HP",
+      "States": [
+        {
+          "Image": "assets/KHII/hprefill",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Refills the HP to it's current maximum.",
+      "UUID": "com.dekirai.kingdomheartsii.refillhp"
+    },
+    {
+      "Icon": "assets/KHII/mprefill",
+      "Name": "Refill MP",
+      "States": [
+        {
+          "Image": "assets/KHII/mprefill",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Refills the MP to it's current maximum.",
+      "UUID": "com.dekirai.kingdomheartsii.refillmp"
+    },
+    {
+      "Icon": "assets/KHII/driverefill",
+      "Name": "Refill Drive",
+      "States": [
+        {
+          "Image": "assets/KHII/driverefill",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Refills the Drive Bar to it's current maximum.",
+      "UUID": "com.dekirai.kingdomheartsii.refilldrive"
+    },
+    {
+      "Icon": "assets/KHII/valorform",
+      "Name": "Trigger Valor Form",
+      "States": [
+        {
+          "Image": "assets/KHII/valorform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Valor Form.",
+      "UUID": "com.dekirai.kingdomheartsii.valorform"
+    },
+    {
+      "Icon": "assets/KHII/wisdomform",
+      "Name": "Trigger Wisdom Form",
+      "States": [
+        {
+          "Image": "assets/KHII/wisdomform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Wisdom Form.",
+      "UUID": "com.dekirai.kingdomheartsii.wisdomform"
+    },
+    {
+      "Icon": "assets/KHII/limitform",
+      "Name": "Trigger Limit Form",
+      "States": [
+        {
+          "Image": "assets/KHII/limitform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Limit Form.",
+      "UUID": "com.dekirai.kingdomheartsii.limitform"
+    },
+    {
+      "Icon": "assets/KHII/masterform",
+      "Name": "Trigger Master Form",
+      "States": [
+        {
+          "Image": "assets/KHII/masterform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Master Form.",
+      "UUID": "com.dekirai.kingdomheartsii.masterform"
+    },
+    {
+      "Icon": "assets/KHII/finalform",
+      "Name": "Trigger Final Form",
+      "States": [
+        {
+          "Image": "assets/KHII/finalform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Final Form.",
+      "UUID": "com.dekirai.kingdomheartsii.finalform"
+    },
+    {
+      "Icon": "assets/KHII/antiform",
+      "Name": "Trigger Anti Form",
+      "States": [
+        {
+          "Image": "assets/KHII/antiform",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers the Anti Form.",
+      "UUID": "com.dekirai.kingdomheartsii.antiform"
+    },
+    {
+      "Icon": "assets/KHII/revert",
+      "Name": "Trigger Revert",
+      "States": [
+        {
+          "Image": "assets/KHII/revert",
+          "TitleAlignment": "middle",
+          "FontSize": "18"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Triggers 'Revert' from the Command Menu.",
+      "UUID": "com.dekirai.kingdomheartsii.revert"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Dekirai",
+  "CodePath": "com.dekirai.kingdomheartsii.exe",
+  "Description": "Functions for Kingdom Hearts II.",
+  "Category": "[Dekirai] Kingdom Hearts II",
+  "Name": "[Dekirai] Kingdom Hearts II",
+  "Icon": "assets/KHII/logo",
+  "URL": "",
+  "Version": "1.2",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
