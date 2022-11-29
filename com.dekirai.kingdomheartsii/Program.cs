@@ -45,6 +45,13 @@ namespace com.dekirai.kingdomheartsii
             }
             private void Core_KeyDownEvent(object sender, KeyDown e)
             {
+                if (Memory.GetPID() == 0)
+                {
+                    core.showAlert(e.context);
+                    return;
+                }
+                else
+                    core.showOk(e.context);
                 switch (e.action)
                 {
                     case "com.dekirai.kingdomheartsii.refillhp":
@@ -76,6 +83,9 @@ namespace com.dekirai.kingdomheartsii
                         break;
                     case "com.dekirai.kingdomheartsii.revert":
                         Memory.TriggerRevert();
+                        break;
+                    case "com.dekirai.kingdomheartsii.softreset":
+                        Memory.SoftReset();
                         break;
                 }
             }

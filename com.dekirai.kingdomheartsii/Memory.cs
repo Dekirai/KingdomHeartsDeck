@@ -12,12 +12,13 @@ namespace com.dekirai.kingdomheartsii
         public static Mem mem = new Mem();
         public static string process = "KINGDOM HEARTS II FINAL MIX.exe";
 
-        private static void GetPID()
+        public static int GetPID()
         {
             int pid = mem.GetProcIdFromName("KINGDOM HEARTS II FINAL MIX");
             bool openProc = false;
 
             if (pid > 0) openProc = mem.OpenProcess(pid);
+            return pid;
         }
 
         public static void RefillHP()
@@ -157,6 +158,13 @@ namespace com.dekirai.kingdomheartsii
             mem.WriteMemory($"{process}+2A5A096", "bytes", "0x05 0x00 0x01 0x00");
             Thread.Sleep(400);
             mem.WriteMemory($"{process}+2A5A096", "bytes", "0x00 0x00 0x00 0x00");
+        }
+        public static void SoftReset()
+        {
+            GetPID();
+            mem.WriteMemory($"{process}+AB845A", "byte", "0x01");
+            mem.WriteMemory($"{process}+751310", "byte", "0x01");
+            mem.WriteMemory($"{process}+2AE3478", "byte", "0x00");
         }
     }
 
