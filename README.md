@@ -1,4 +1,4 @@
-# com.dekirai.kingdomheartsii
+# KingdomHeartsDeck
  A Stream Deck Plugin for Kingdom Hearts II (PC).
 
 ## Functions
