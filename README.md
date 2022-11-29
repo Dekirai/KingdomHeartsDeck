@@ -1,5 +1,6 @@
 # KingdomHeartsDeck
- A Stream Deck Plugin for Kingdom Hearts II (PC).
+ A Stream Deck Plugin for Kingdom Hearts II (PC).  
+ Support for Kingdom Hearts I will follow.
 
 ## Functions
 - Refill HP/MP/Drive
