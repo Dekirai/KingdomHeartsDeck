@@ -5,6 +5,7 @@
 - Refill HP/MP/Drive
 - Trigger Valor/Wisdom/Limit/Master/Final/Anti Form
 - Trigger 'Revert' from the Command Menu
+- Soft Reset
 
 There will be added more soon.
 
