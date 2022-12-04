@@ -5,16 +5,16 @@
 
 ## Functions
 <details>
-<summary><h4>Kingdom Hearts</h4></summary>
-• Refill HP/MP</br>
-• Soft Reset</br>
+<summary>Kingdom Hearts</summary>
+1. Refill HP/MP
+2. Soft Reset
 </details>
 <details>
-<summary><h4>Kingdom Hearts II</h4></summary>
-• Refill HP/MP/Drive</br>
-• Trigger Valor/Wisdom/Limit/Master/Final/Anti Form</br>
-• Trigger 'Revert' from the Command Menu</br>
-• Soft Reset</br>
+<summary>Kingdom Hearts II</summary>
+1. Refill HP/MP/Drive
+2. Trigger Valor/Wisdom/Limit/Master/Final/Anti Form
+3. Trigger 'Revert' from the Command Menu
+4. Soft Reset
 </details>
 
 
