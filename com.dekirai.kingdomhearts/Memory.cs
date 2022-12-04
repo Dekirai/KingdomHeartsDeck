@@ -21,25 +21,24 @@ namespace com.dekirai.kingdomhearts
             return pid;
         }
 
-        //public static void RefillHP()
-        //{
-        //    GetPID();
-        //    mem.WriteMemory($"{process}+2A20C98", "int", $"{mem.ReadInt($"{process}+2A20C9C")}");
-        //}
-        //public static void RefillMP()
-        //{
-        //    GetPID();
-        //    mem.WriteMemory($"{process}+2A20E18", "int", $"{mem.ReadInt($"{process}+2A20E1C")}");
-        //    mem.WriteMemory($"{process}+2A20E54", "float", "0");
-        //}
+        public static void RefillHP()
+        {
+            GetPID();
+            mem.WriteMemory($"{process}+2D592CC", "int", $"{mem.ReadInt($"{process}+2D592D0")}");
+        }
+        public static void RefillMP()
+        {
+            GetPID();
+            mem.WriteMemory($"{process}+2D592D4", "int", $"{mem.ReadInt($"{process}+2D592D8")}");
+        }
 
-        //public static void SoftReset()
-        //{
-        //    GetPID();
-        //    mem.WriteMemory($"{process}+AB845A", "byte", "0x01");
-        //    mem.WriteMemory($"{process}+751310", "byte", "0x01");
-        //    mem.WriteMemory($"{process}+2AE3478", "byte", "0x00");
-        //}
+        public static void SoftReset()
+        {
+            GetPID();
+            mem.WriteMemory($"{process}+22E86E0", "byte", "0x01");
+            mem.WriteMemory($"{process}+22E86DC", "byte", "0x02");
+            mem.WriteMemory($"{process}+233C240", "byte", "0x01");
+        }
     }
 
 }

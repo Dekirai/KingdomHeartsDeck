@@ -54,15 +54,15 @@ namespace com.dekirai.kingdomhearts
                     core.showOk(e.context);
                 switch (e.action)
                 {
-                    //case "com.dekirai.kingdomheartsii.refillhp":
-                    //    Memory.RefillHP();
-                    //    break;
-                    //case "com.dekirai.kingdomheartsii.refillmp":
-                    //    Memory.RefillMP();
-                    //    break;
-                    //case "com.dekirai.kingdomheartsii.softreset":
-                    //    Memory.SoftReset();
-                    //    break;
+                    case "com.dekirai.kingdomhearts.refillhp":
+                        Memory.RefillHP();
+                        break;
+                    case "com.dekirai.kingdomhearts.refillmp":
+                        Memory.RefillMP();
+                        break;
+                    case "com.dekirai.kingdomhearts.softreset":
+                        Memory.SoftReset();
+                        break;
                 }
             }
 
