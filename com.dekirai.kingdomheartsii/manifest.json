@@ -1,0 +1,177 @@
+﻿{
+   "Actions":[
+      {
+         "Icon":"assets/hprefill",
+         "Name":"Refill HP",
+         "States":[
+            {
+               "Image":"assets/hprefill",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Refills the HP to it's current maximum.",
+         "UUID":"com.dekirai.kingdomheartsii.refillhp"
+      },
+      {
+         "Icon":"assets/mprefill",
+         "Name":"Refill MP",
+         "States":[
+            {
+               "Image":"assets/mprefill",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Refills the MP to it's current maximum.",
+         "UUID":"com.dekirai.kingdomheartsii.refillmp"
+      },
+      {
+         "Icon":"assets/driverefill",
+         "Name":"Refill Drive",
+         "States":[
+            {
+               "Image":"assets/driverefill",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Refills the Drive Bar to it's current maximum.",
+         "UUID":"com.dekirai.kingdomheartsii.refilldrive"
+      },
+      {
+         "Icon":"assets/valorform",
+         "Name":"Trigger Valor Form",
+         "States":[
+            {
+               "Image":"assets/valorform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Valor Form.",
+         "UUID":"com.dekirai.kingdomheartsii.valorform"
+      },
+      {
+         "Icon":"assets/wisdomform",
+         "Name":"Trigger Wisdom Form",
+         "States":[
+            {
+               "Image":"assets/wisdomform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Wisdom Form.",
+         "UUID":"com.dekirai.kingdomheartsii.wisdomform"
+      },
+      {
+         "Icon":"assets/limitform",
+         "Name":"Trigger Limit Form",
+         "States":[
+            {
+               "Image":"assets/limitform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Limit Form.",
+         "UUID":"com.dekirai.kingdomheartsii.limitform"
+      },
+      {
+         "Icon":"assets/masterform",
+         "Name":"Trigger Master Form",
+         "States":[
+            {
+               "Image":"assets/masterform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Master Form.",
+         "UUID":"com.dekirai.kingdomheartsii.masterform"
+      },
+      {
+         "Icon":"assets/finalform",
+         "Name":"Trigger Final Form",
+         "States":[
+            {
+               "Image":"assets/finalform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Final Form.",
+         "UUID":"com.dekirai.kingdomheartsii.finalform"
+      },
+      {
+         "Icon":"assets/antiform",
+         "Name":"Trigger Anti Form",
+         "States":[
+            {
+               "Image":"assets/antiform",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers the Anti Form.",
+         "UUID":"com.dekirai.kingdomheartsii.antiform"
+      },
+      {
+         "Icon":"assets/revert",
+         "Name":"Trigger Revert",
+         "States":[
+            {
+               "Image":"assets/revert",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Triggers 'Revert' from the Command Menu.",
+         "UUID":"com.dekirai.kingdomheartsii.revert"
+      },
+      {
+         "Icon":"assets/reset",
+         "Name":"Soft Reset",
+         "States":[
+            {
+               "Image":"assets/reset",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Resets the game back to the title screen.",
+         "UUID":"com.dekirai.kingdomheartsii.softreset"
+      }
+   ],
+   "SDKVersion":2,
+   "Author":"Dekirai",
+   "CodePath":"com.dekirai.kingdomheartsii.exe",
+   "Description":"Functions for Kingdom Hearts II.",
+   "Category":"[Dekirai] Kingdom Hearts II",
+   "CategoryIcon":"assets/logo_alt",
+   "Name":"[Dekirai] Kingdom Hearts II",
+   "Icon":"assets/logo",
+   "URL":"",
+   "Version":"1.4",
+   "OS":[
+      {
+         "Platform":"windows",
+         "MinimumVersion":"10"
+      }
+   ],
+   "Software":{
+      "MinimumVersion":"5.0"
+   }
+}
