@@ -1,14 +1,22 @@
+
 # KingdomHeartsDeck
  A Stream Deck Plugin for Kingdom Hearts II (PC).  
  Support for Kingdom Hearts I will follow.
 
 ## Functions
+<details>
+<summary><h4>Kingdom Hearts</h4></summary>
+- Refill HP/MP
+- Soft Reset
+</details>
+<details>
+<summary><h4>Kingdom Hearts II</h4></summary>
 - Refill HP/MP/Drive
 - Trigger Valor/Wisdom/Limit/Master/Final/Anti Form
 - Trigger 'Revert' from the Command Menu
 - Soft Reset
+</details>
 
-There will be added more soon.
 
 ## Credits
 [Televo](https://github.com/Televo/kingdom-hearts-recollection) - Kingdom Hearts Icons  
