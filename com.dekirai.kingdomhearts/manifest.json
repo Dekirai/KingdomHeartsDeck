@@ -1,0 +1,65 @@
+﻿{
+   "Actions":[
+      {
+         "Icon":"assets/hprefill",
+         "Name":"Refill HP",
+         "States":[
+            {
+               "Image":"assets/hprefill",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Refills the HP to it's current maximum.",
+         "UUID":"com.dekirai.kingdomhearts.refillhp"
+      },
+      {
+         "Icon":"assets/mprefill",
+         "Name":"Refill MP",
+         "States":[
+            {
+               "Image":"assets/mprefill",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Refills the MP to it's current maximum.",
+         "UUID":"com.dekirai.kingdomhearts.refillmp"
+      },
+      {
+         "Icon":"assets/reset",
+         "Name":"Soft Reset",
+         "States":[
+            {
+               "Image":"assets/reset",
+               "TitleAlignment":"middle",
+               "FontSize":"18"
+            }
+         ],
+         "SupportedInMultiActions":false,
+         "Tooltip":"Resets the game back to the title screen.",
+         "UUID":"com.dekirai.kingdomhearts.softreset"
+      }
+   ],
+   "SDKVersion":2,
+   "Author":"Dekirai",
+   "CodePath":"com.dekirai.kingdomhearts.exe",
+   "Description":"Functions for Kingdom Hearts.",
+   "Category":"[Dekirai] Kingdom Hearts",
+   "CategoryIcon":"assets/logo_alt",
+   "Name":"[Dekirai] Kingdom Hearts",
+   "Icon":"assets/logo",
+   "URL":"",
+   "Version":"1.0",
+   "OS":[
+      {
+         "Platform":"windows",
+         "MinimumVersion":"10"
+      }
+   ],
+   "Software":{
+      "MinimumVersion":"5.0"
+   }
+}

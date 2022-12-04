@@ -1,11 +1,11 @@
 ﻿{
    "Actions":[
       {
-         "Icon":"assets/KHII/hprefill",
+         "Icon":"assets/hprefill",
          "Name":"Refill HP",
          "States":[
             {
-               "Image":"assets/KHII/hprefill",
+               "Image":"assets/hprefill",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -15,11 +15,11 @@
          "UUID":"com.dekirai.kingdomheartsii.refillhp"
       },
       {
-         "Icon":"assets/KHII/mprefill",
+         "Icon":"assets/mprefill",
          "Name":"Refill MP",
          "States":[
             {
-               "Image":"assets/KHII/mprefill",
+               "Image":"assets/mprefill",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -29,11 +29,11 @@
          "UUID":"com.dekirai.kingdomheartsii.refillmp"
       },
       {
-         "Icon":"assets/KHII/driverefill",
+         "Icon":"assets/driverefill",
          "Name":"Refill Drive",
          "States":[
             {
-               "Image":"assets/KHII/driverefill",
+               "Image":"assets/driverefill",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -43,11 +43,11 @@
          "UUID":"com.dekirai.kingdomheartsii.refilldrive"
       },
       {
-         "Icon":"assets/KHII/valorform",
+         "Icon":"assets/valorform",
          "Name":"Trigger Valor Form",
          "States":[
             {
-               "Image":"assets/KHII/valorform",
+               "Image":"assets/valorform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -57,11 +57,11 @@
          "UUID":"com.dekirai.kingdomheartsii.valorform"
       },
       {
-         "Icon":"assets/KHII/wisdomform",
+         "Icon":"assets/wisdomform",
          "Name":"Trigger Wisdom Form",
          "States":[
             {
-               "Image":"assets/KHII/wisdomform",
+               "Image":"assets/wisdomform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -71,11 +71,11 @@
          "UUID":"com.dekirai.kingdomheartsii.wisdomform"
       },
       {
-         "Icon":"assets/KHII/limitform",
+         "Icon":"assets/limitform",
          "Name":"Trigger Limit Form",
          "States":[
             {
-               "Image":"assets/KHII/limitform",
+               "Image":"assets/limitform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -85,11 +85,11 @@
          "UUID":"com.dekirai.kingdomheartsii.limitform"
       },
       {
-         "Icon":"assets/KHII/masterform",
+         "Icon":"assets/masterform",
          "Name":"Trigger Master Form",
          "States":[
             {
-               "Image":"assets/KHII/masterform",
+               "Image":"assets/masterform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -99,11 +99,11 @@
          "UUID":"com.dekirai.kingdomheartsii.masterform"
       },
       {
-         "Icon":"assets/KHII/finalform",
+         "Icon":"assets/finalform",
          "Name":"Trigger Final Form",
          "States":[
             {
-               "Image":"assets/KHII/finalform",
+               "Image":"assets/finalform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -113,11 +113,11 @@
          "UUID":"com.dekirai.kingdomheartsii.finalform"
       },
       {
-         "Icon":"assets/KHII/antiform",
+         "Icon":"assets/antiform",
          "Name":"Trigger Anti Form",
          "States":[
             {
-               "Image":"assets/KHII/antiform",
+               "Image":"assets/antiform",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -127,11 +127,11 @@
          "UUID":"com.dekirai.kingdomheartsii.antiform"
       },
       {
-         "Icon":"assets/KHII/revert",
+         "Icon":"assets/revert",
          "Name":"Trigger Revert",
          "States":[
             {
-               "Image":"assets/KHII/revert",
+               "Image":"assets/revert",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -141,11 +141,11 @@
          "UUID":"com.dekirai.kingdomheartsii.revert"
       },
       {
-         "Icon":"assets/KHII/reset",
+         "Icon":"assets/reset",
          "Name":"Soft Reset",
          "States":[
             {
-               "Image":"assets/KHII/reset",
+               "Image":"assets/reset",
                "TitleAlignment":"middle",
                "FontSize":"18"
             }
@@ -160,9 +160,9 @@
    "CodePath":"com.dekirai.kingdomheartsii.exe",
    "Description":"Functions for Kingdom Hearts II.",
    "Category":"[Dekirai] Kingdom Hearts II",
-   "CategoryIcon":"assets/KHII/logo_alt",
+   "CategoryIcon":"assets/logo_alt",
    "Name":"[Dekirai] Kingdom Hearts II",
-   "Icon":"assets/KHII/logo",
+   "Icon":"assets/logo",
    "URL":"",
    "Version":"1.3",
    "OS":[

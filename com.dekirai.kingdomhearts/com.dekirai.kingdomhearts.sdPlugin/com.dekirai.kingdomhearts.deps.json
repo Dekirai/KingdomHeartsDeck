@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "com.dekirai.kingdomhearts/1.0.0": {
+        "dependencies": {
+          "Memory.dll.x64": "1.2.24",
+          "StreamDeckCS": "1.0.0"
+        },
+        "runtime": {
+          "com.dekirai.kingdomhearts.dll": {}
+        }
+      },
+      "Memory.dll.x64/1.2.24": {
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "assemblyVersion": "1.2.24.0",
+            "fileVersion": "1.2.24.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "StreamDeckCS/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "WebSocketEnhanced": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/StreamDeckCS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WebSocketEnhanced/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/WebSocketEnhanced.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "com.dekirai.kingdomhearts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Memory.dll.x64/1.2.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fjpioQZXMFn5OoFJ2nPqhokBT0OMzH59PMiol0wP0TF0v3XL3cRFwgu/4C9tvwEs1Qxv5WeHcjw6S+z2zgpvRQ==",
+      "path": "memory.dll.x64/1.2.24",
+      "hashPath": "memory.dll.x64.1.2.24.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "StreamDeckCS/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AdC5UXuBP7ZD2nI8HqxzU3vkFUBrtodFVXgtGVcrDxWvNL5eqhdkYd5zHOAYYynRMCxt/HZ5t408NGY8JPl0JA==",
+      "path": "streamdeckcs/1.0.0",
+      "hashPath": "streamdeckcs.1.0.0.nupkg.sha512"
+    },
+    "WebSocketEnhanced/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nQgtmq43SILjv7RCW7Tu3KI481N0N4HIdYF/lcjGFTwOArSQ5eVbN2sLesW87KLYI2tPGJG/0VymI48USoUxUw==",
+      "path": "websocketenhanced/1.0.0",
+      "hashPath": "websocketenhanced.1.0.0.nupkg.sha512"
+    }
+  }
+}

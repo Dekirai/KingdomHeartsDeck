@@ -3,7 +3,7 @@ using System.Timers;
 using StreamDeckCS;
 using StreamDeckCS.EventsReceived;
 
-namespace com.dekirai.kingdomheartsii
+namespace com.dekirai.kingdomhearts
 {
     internal class Program
     {
@@ -54,39 +54,15 @@ namespace com.dekirai.kingdomheartsii
                     core.showOk(e.context);
                 switch (e.action)
                 {
-                    case "com.dekirai.kingdomheartsii.refillhp":
-                        Memory.RefillHP();
-                        break;
-                    case "com.dekirai.kingdomheartsii.refillmp":
-                        Memory.RefillMP();
-                        break;
-                    case "com.dekirai.kingdomheartsii.refilldrive":
-                        Memory.RefillDrive();
-                        break;
-                    case "com.dekirai.kingdomheartsii.valorform":
-                        Memory.TriggerValorForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.wisdomform":
-                        Memory.TriggerWisdomForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.masterform":
-                        Memory.TriggerMasterForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.limitform":
-                        Memory.TriggerLimitForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.finalform":
-                        Memory.TriggerFinalForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.antiform":
-                        Memory.TriggerAntiForm();
-                        break;
-                    case "com.dekirai.kingdomheartsii.revert":
-                        Memory.TriggerRevert();
-                        break;
-                    case "com.dekirai.kingdomheartsii.softreset":
-                        Memory.SoftReset();
-                        break;
+                    //case "com.dekirai.kingdomheartsii.refillhp":
+                    //    Memory.RefillHP();
+                    //    break;
+                    //case "com.dekirai.kingdomheartsii.refillmp":
+                    //    Memory.RefillMP();
+                    //    break;
+                    //case "com.dekirai.kingdomheartsii.softreset":
+                    //    Memory.SoftReset();
+                    //    break;
                 }
             }
 
